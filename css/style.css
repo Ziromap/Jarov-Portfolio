@@ -92,7 +92,7 @@ header ul li a{
     position: relative;
     display: inline-block;
     width: 300px;
-    height: 55px;
+    height: 60px;
     background-color: #fff;
     color: #000;
     text-transform: uppercase;
@@ -131,11 +131,25 @@ header ul li a{
     padding: 30px;;
 }
 
+.brand-logo h2{
+    margin-bottom: 30px;
+}
+
 .brand-logo-inner{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+
+.brand-logo-inner .item .logo{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.brand-logo-inner .item .logo-ar{
+    max-width: 80px;
+    max-height: 80px;
 }
 
 .sec1{
@@ -192,7 +206,17 @@ header ul li a{
 }
 
 .sec2{
-    padding: 100px 0 0;
+    padding: 100px 0 100px 0;
+}
+
+.sec2::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to left, transparent, #fff, transparent);
 }
 
 .sec2 h2{
@@ -221,8 +245,8 @@ header ul li a{
 }
 
 .img-box{
-    width: 270px;
-    height: 268.17px;
+    width: 350px;
+    height: 150px;
     display: block;
     object-fit: cover;
     text-align: center;
@@ -323,7 +347,7 @@ header ul li a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 90px;
+    margin-top: 60px;
 }
 
 .box{
@@ -331,9 +355,9 @@ header ul li a{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 23%;
-    min-height: 270px;
-    border: 1px solid #fff;
+    width: 30%;
+    min-height: 150px;
+    border: 2px solid #fff;
     margin-bottom: 40px;
     background-position: center;
     overflow: hidden;
