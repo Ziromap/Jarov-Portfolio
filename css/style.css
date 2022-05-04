@@ -69,23 +69,12 @@ header ul li a{
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url(../img/banner1.jpg) no-repeat;
+    background: url(../img/banner4.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: flex-end;
 }
-
-/* .video-container{
-    position: absolute;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: flex-end;
-    top: 0;
-    left: 0;
-    width: 100%;
-} */
 
 .banner .text{
     text-align: center;
@@ -102,15 +91,15 @@ header ul li a{
 .btn{
     position: relative;
     display: inline-block;
-    width: 320px;
-    height: 60px;
+    width: 300px;
+    height: 55px;
     background-color: #fff;
     color: #000;
     text-transform: uppercase;
     font-style: italic;
     text-decoration: none;
     text-align: center;
-    line-height: 60px;
+    line-height: 55px;
     z-index: 9;
     margin-top: 30px;
     transition: all ease 1s;
@@ -217,17 +206,26 @@ header ul li a{
 .sec2-inner{
     display: flex;
     flex-wrap: wrap;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
 }
 
+.sec2 .img-sec{
+    max-height: 400px;
+    max-width: 600px;
+    display: flex;
+    object-fit: cover;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
 .img-box{
-    max-width: 100%;
-    max-height: 100%;
+    width: 270px;
+    height: 268.17px;
     display: block;
-    /* background-position: center;
-    background-repeat: no-repeat;
-    object-fit: cover; */
+    object-fit: cover;
+    text-align: center;
 }
 
 .sec2-inner{
@@ -238,11 +236,6 @@ header ul li a{
     width: 50%;
     margin-left: -65px;
     z-index: 9;
-}
-
-.sec2 .text-inner{
-    position: relative;
-    margin: 55px 0 0 190px;
 }
 
 .sec2 .text-inner::before{
@@ -342,6 +335,7 @@ header ul li a{
     min-height: 270px;
     border: 1px solid #fff;
     margin-bottom: 40px;
+    background-position: center;
     overflow: hidden;
 }
 
