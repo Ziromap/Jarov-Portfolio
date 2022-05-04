@@ -51,6 +51,14 @@ header{
     color: #fff;
 }
 
+header{
+    background: rgba( 0, 0, 0, 0.50 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
 header ul{
     padding-left: 0;
 }
