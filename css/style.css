@@ -4,6 +4,12 @@
     outline: none;
 }
 
+@media screen and (max-width: 425px) {
+    .h1{
+        font-size: 2rem;
+    }
+}
+
 body{
     color: #fff;
     background-color: #000;
@@ -86,7 +92,7 @@ header ul li a{
 
 .banner .text{
     text-align: center;
-    padding-bottom: 220px;
+    padding-bottom: 180px;
 }
 
 .banner h1{
