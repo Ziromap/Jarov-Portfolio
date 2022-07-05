@@ -65,14 +65,23 @@ header {
     -webkit-backdrop-filter: blur(10px);
 }
 
+header .left-menu {
+    margin-right: 75px;
+}
+
+header .right-menu {
+    margin-left: 75px;
+}
+
 header ul {
-    padding-left: 0;
+    padding: 0%;
+    margin: 0%;
 }
 
 header ul li {
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 35px;
 }
 
 header ul li a {
@@ -89,11 +98,11 @@ header a {
     position: relative;
     width: 100%;
     height: 100vh;
+    display: flex;
+    align-items: flex-end;
     background: url(../img/banner12.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    display: flex;
-    align-items: flex-end;
 }
 
 .banner .text {
@@ -487,6 +496,11 @@ footer::after {
         display: inline;
         justify-content: center;
         text-align: center;
+    }
+
+    header .left-menu,
+    header .right-menu {
+        display: none;
     }
 
     header h2 {
