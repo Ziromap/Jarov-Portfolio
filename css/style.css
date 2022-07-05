@@ -55,7 +55,7 @@ header {
 }
 
 .logo h2 {
-    font-size: 1.5rem;
+    font-size: 1.60rem;
     color: #fff;
 }
 
@@ -493,6 +493,10 @@ footer::after {
         display: inline;
     }
 
+    header .logo h2 {
+        font-size: 1.3rem;
+    }
+
     header a {
         text-decoration: none;
     }
@@ -502,16 +506,15 @@ footer::after {
     }
 
     .banner h1 {
-        font-size: 3.7rem;
+        font-size: 3.5rem;
     }
 
     .banner h2 {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     .banner .btn {
-        width: 250px;
-
+        width: 230px;
     }
 
     .brand-logo {
@@ -523,16 +526,16 @@ footer::after {
     }
 
     .sec1-inner h1 {
-        font-size: 2.7rem;
+        font-size: 2.5rem;
         text-align: left;
-        margin-left: 35px;
+        margin-left: 20px;
         width: 45%;
     }
 
     .sec1-inner .text-right {
         font-size: .9rem;
         text-align: justify;
-        margin-right: 25px;
+        margin-right: 20px;
     }
 
     .sec2 {
@@ -556,7 +559,8 @@ footer::after {
     }
 
     .sec2 .sec2-inner h2 {
-        font-size: 1.50rem;
+        font-size: 1.4rem;
+        margin-bottom: 15px;
         text-align: center;
     }
 
@@ -576,7 +580,7 @@ footer::after {
     .sec4 h2 {
         font-size: 1.5rem;
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 
     .sec4 .sec4-boxes {
@@ -597,5 +601,10 @@ footer::after {
     .footer-inner {
         justify-content: center;
         text-align: center;
+    }
+
+    .footer-inner h2 {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
     }
 }
